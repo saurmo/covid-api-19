@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pruebas</title>
+    <style>
+      #nombre {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Reporte de pruebas</h1>
+    </center>
+    <span id="nombre"> {{nombre}} </span>
+
+    <ul class="people_list">
+      {{#each people}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <td>ID</td>
+        </tr>
+      </thead>
+      <tr>
+        <td>id</td>
+      </tr>
+    </table>
+  </body>
+</html>

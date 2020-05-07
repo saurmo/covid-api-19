@@ -31,6 +31,9 @@ const vs = "/api/v1/";
  * RECURSOS PUBLICOS
  */
 
+const rutas_reportes = require("./routes/reportes");
+app.use(vs, rutas_reportes);
+
 /**
  * RECURSOS PRIVADOS: Necesitan un token generado con la autorización.
  */
