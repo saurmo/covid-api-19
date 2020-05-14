@@ -1,4 +1,4 @@
-// require("./server/keys");
+require("./server/keys");
 
 // Importar express
 const express = require("express");
@@ -57,7 +57,7 @@ app.use("/", (req, res) => {
 });
 
 // Puerto
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 // Levantar el servidor para escuchar los puertos
 app.listen(port, () => {
   console.log(
